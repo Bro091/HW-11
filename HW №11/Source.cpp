@@ -4,7 +4,7 @@ int main() {
 	setlocale(LC_ALL, "Russian");
 	int n;
 
-	/*std::cout << "Çàäà÷à ¹1.\n";
+	std::cout << "Ã‡Ã Ã¤Ã Ã·Ã  Â¹1.\n";
     for (int i = 2; i <= 100; i++) {
         int counter = 0;
 
@@ -16,26 +16,14 @@ int main() {
         }
         if (counter <= 2)
             std::cout << i << ' ';
-    }*/
+    }
 	
 
-    std::cout << "Çàäà÷à ¹2.\n";
+    std::cout << "Ã‡Ã Ã¤Ã Ã·Ã  Â¹2.\n";
     n = 7;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++)
-            /*   if (i == j)
-                   std::cout << "* ";
-                    else
-                       if (i + j == n -1)
-                     std::cout << "* ";
-                        else
-                            if (i == n / 2)
-                                std::cout << "* ";
-                              else
-                                if (j == n - 1)
-                                    std::cout << "* ";
-                                    else
-                        std::cout << ' ';*/
+           
                 if (i == j || i + j == n - 1 || i == n / 2 || j == n - 4)
                     std::cout << "* ";
                 else
